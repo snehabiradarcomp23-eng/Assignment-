@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://fantastic-disco-q7g5pvg99px73pxr-5000.app.github.dev/api/tasks",
+  baseURL: "https://task-tracker-backend-pxzp.onrender.com/api/tasks",
 });
 
 export default API;
